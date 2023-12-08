@@ -1,0 +1,268 @@
+@media screen and (min-width: 991px){
+.desktop-view {
+	display: block;
+}
+.mobile-view {
+	display: none;
+}
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    margin: 0;
+    width: 1920px;
+    position: relative;
+}
+
+.header {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+}
+
+.link a {
+    color: black;
+    font-size: 20px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.link a:hover {
+    color: white;
+}
+
+.main-content {
+    border: black 1px;
+    padding: 10px 15px;
+}
+
+.navigation {
+    width: 135px;
+    background-color: #bbb;
+    box-shadow: 0 0 0 0px,10px 11px 0 0px black;
+    padding: 5px 5px;
+    position: relative;
+}
+
+.sub_nav {
+    border: 2px solid #000;
+    padding: 5px 5px;
+}
+
+.btn {
+    width: 100%;
+    color: black;
+    background-color: transparent;
+    border: 0;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #0aa;
+}
+
+.main-content {
+    display: flex;
+    background-color: #000084;
+}
+
+.topic {
+    width: 456px;
+    margin-left: 20px;
+}
+
+.topic-con {
+    width: 600px;
+    margin-left: 20px;
+}
+
+.name {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #0aa;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.element {
+    margin-bottom: 20px;
+}
+
+.element-t {
+    margin-bottom: 20px;
+    color: white; 
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+
+.element a {
+    font-size: 20px;
+    color: #fefe54;
+}
+
+.element a:hover {
+    color: #fefe54;
+    background: #a50;
+}
+
+.footer {
+    padding-left: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #000084;
+}
+
+.text-content {
+    font-size: 20px;
+    color: rgb(104, 100, 100);
+}
+}
+
+@media screen and (max-width: 990px){
+.desktop-view {
+	display: none;
+}
+.mobile-view {
+	display: block;
+}
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    margin: 0;
+    position: relative;
+}
+
+.header {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+}
+
+.link a {
+    color: black;
+    font-size: 20px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.link a:hover {
+    color: white;
+}
+
+.main-content {
+    border: black 1px;
+    padding: 10px 15px;
+}
+
+
+
+.navigation {
+	max-width: 380px;
+    background-color: #bbb;
+    box-shadow: 0 0 0 0px,10px 11px 0 0px black;
+    padding: 5px 5px;
+    position: relative;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sub_nav {
+    border: 2px solid #000;
+    padding: 5px 5px;
+}
+
+.btn {
+    width: 100%;
+    color: black;
+    background-color: transparent;
+    border: 0;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #0aa;
+}
+
+.main-content {
+    background-color: #000084;
+}
+
+.topic {
+    margin-left: 20px;
+}
+
+.topic-con {
+    margin-left: 20px;
+}
+
+.name {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #0aa;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.element {
+    margin-bottom: 20px;
+}
+
+.element-t {
+    margin-bottom: 20px;
+    color: white; 
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+
+.element a {
+    font-size: 20px;
+    color: #fefe54;
+}
+
+.element a:hover {
+    color: #fefe54;
+    background: #a50;
+}
+
+.footer {
+    padding-left: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #000084;
+}
+
+.text-content {
+    font-size: 20px;
+    color: rgb(104, 100, 100);
+}
+}
